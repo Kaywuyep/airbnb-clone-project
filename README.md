@@ -228,22 +228,9 @@ Securing the backend APIs is a top priority for the project to protect sensitive
 This pipeline supports a smooth and efficient development lifecycle for the Airbnb Clone Project.
 
 
-## Requirements
 
-To successfully complete the project tasks, learners must:
 
-- Have a [GitHub](https://github.com/Kaywuyep/airbnb-clone-project.git) account to create and manage repositories.
-- Be familiar with Markdown syntax for creating and editing `README.md` files.
-- Possess prior experience with backend frameworks like **Django** and database systems such as **MySQL**.
-- Understand the software development lifecycle practices, including:
-  - Application security
-  - Continuous Integration/Deployment (CI/CD)
-  - Database design and migrations
-- Be comfortable using modern tools such as:
-  - **Docker**
-  - **GitHub Actions** or similar CI/CD platforms
-
-## Getting Started
+## Get Started
 
 1. Clone this repository.
 2. Set up your virtual environment and install dependencies.
@@ -257,5 +244,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver
+python manage.py runserver 
+```
 
+**NOTE** I added the get started section so any new collaborator would find it easy to get around getting on boarded
